@@ -3,7 +3,7 @@ def tribonacci(signature, n):
     if n == 0:
         return []
     p = 0
-    if n < 3:
+    if n <= 3:
         while p < n:
             arr.append(signature[p])
             p = p + 1
